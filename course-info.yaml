@@ -1,0 +1,17 @@
+type: marketplace
+title: 极创工作室 Python 培训实践课程（公众版）
+language: Chinese
+summary: |-
+  这是极创工作室 Python 培训实践课程（公众版）
+  - 本课程主要面向对 Python 没有基础的萌新
+  - 本课程涵盖核心 Python 功能和语法
+  - 本课程包含 Python 代码实现的动手示例和练习新技能的练习
+  - 本课程基于极创工作室在 Python 开发方面的经验
+vendor:
+  name: 韩翔宇 @ 极创工作室
+  email: pescn@115lab.club
+  url: https://join.geek-tech.club/
+programming_language: Python
+environment: unittest
+content:
+- Python 入门
