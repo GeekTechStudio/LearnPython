@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: 当字符串包含单引号或双引号字符时，外引号应该是相反的类型。
+  is_correct: true
+- text: 一行的长度限制为最多 79 个字符。
+  is_correct: true
+- text: 变量名称的长度限制为最多 5 个字符。
+  is_correct: false
+- text: 仅使用单引号字符来定义单字符串。
+  is_correct: false
+- text: 避免括号内有多余的空格。
+  is_correct: true
+files:
+- name: main.py
+  visible: true
+- name: __init__.py
+  visible: false
+local_check: true

@@ -1,0 +1,12 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 657
+    length: 12
+    placeholder_text: '# 请在此编写代码'
+- name: __init__.py
+  visible: false

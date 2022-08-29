@@ -1,0 +1,18 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 3808
+    length: 74
+    placeholder_text: 请在此处编写代码
+  - offset: 4074
+    length: 15
+    placeholder_text: 请在此处编写代码
+  - offset: 4436
+    length: 27
+    placeholder_text: 请在此处编写代码
+- name: __init__.py
+  visible: false
