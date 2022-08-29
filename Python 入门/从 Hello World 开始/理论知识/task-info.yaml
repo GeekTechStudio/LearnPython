@@ -1,0 +1,23 @@
+type: choice
+
+is_multiple_choice: true
+options:
+- text: A
+  is_correct: true
+- text: B
+  is_correct: false
+- text: C
+  is_correct: true
+- text: D
+  is_correct: false
+- text: E
+  is_correct: false
+
+files:
+- name: main.py
+  visible: true
+- name: __init__.py
+  visible: false
+
+message_correct: 回答正确
+message_incorrect: 回答错误，请再想想
